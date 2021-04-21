@@ -87,7 +87,7 @@ footer > p{
         justify-content: space-around;
     }
 
-    .shop-items {
+    #shop-items {
         display: grid;
         grid-template-rows: repeat(2, 4fr);
         grid-template-columns: repeat(3, 2fr);

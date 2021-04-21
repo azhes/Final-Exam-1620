@@ -29,25 +29,25 @@
     <main>
         <h2 class="section-header">Click on an album to add it to the cart!</h2>
         <div class="wrapper">
-            <section class="shop-items">
+            <section id="shop-items">
                 <div class="shop-item" id="album1">
                     <span>Album 1</span>
-                    <img class="shop-item-image" id="Album 1" alt="Our First Album">
+                    <img class="shop-item-image" id="Album 1" alt="Our First Album" onclick="addToCart(`Images/${id}.png`)">
                 </div>
 
                 <div class="shop-item" id="album2">
                     <span>Album 2</span>
-                    <img class="shop-item-image" id="Album 2" alt="Our Second Album">
+                    <img class="shop-item-image" id="Album 2" alt="Our Second Album" onclick="addToCart(`Images/${id}.png`)">
                 </div>
 
                 <div class="shop-item" id="album3">
                     <span>Album 3</span>
-                    <img class="shop-item-image" id="Album 3" alt="Our Third Album">
+                    <img class="shop-item-image" id="Album 3" alt="Our Third Album" onclick="addToCart(`Images/${id}.png`)">
                 </div>
 
                 <div class="shop-item" id="album4">
                     <span>Album 4</span>
-                    <img class="shop-item-image" id="Album 4" alt="Our Fourth Album">
+                    <img class="shop-item-image" id="Album 4" alt="Our Fourth Album" onclick="addToCart(`Images/${id}.png`)">
                 </div>
 
             </section>

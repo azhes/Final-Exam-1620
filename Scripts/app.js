@@ -5,14 +5,26 @@ const albums = [
     { name: "Album 4", price: 19.99, inCart: false }
   ];
 
+
 function populateAlbums() {
     // loops through image elements and updates their src attribute
     for(var album of albums) {
         var name = album.name
-        console.log(name)
         var albumID = document.getElementById(`${name}`)
         albumID.setAttribute("src", `Images/${name}.png`)
     }
 }
 
 populateAlbums()
+
+function addToCart(src) {
+    // updates the cart based on the image the user clicked on
+    console.log(src) //for debugging
+
+    var imageHeading = document.getElementById('imageHeading')
+
+    imageHeading.innerHTML = `<ul><li><img alt="Album in Cart" src=${src}><li><ul>`
+
+}
+
+//Ran out of time
