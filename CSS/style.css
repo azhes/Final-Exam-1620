@@ -18,3 +18,56 @@ h1 {
     height: 4rem;
     text-align: center;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.shop-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart {
+    background-color: #8BBEB2;
+}
+
+h3 {
+    background-color: #8BBEB2;
+    color: #18314F;
+}
+
+.cart {
+    background-color: #8BBEB2;
+    color: #18314F;
+    width: 22rem;
+}
+
+.cart-row {
+    background-color: #8BBEB2;
+    text-align: center;
+}
+
+#imageHeading {
+    background-color: #8BBEB2;
+    color: #18314F;
+    padding: 10px;
+}
+
+#nameHeading {
+    background-color: #8BBEB2;
+    color: #18314F;
+}
+
+#priceHeading {
+    background-color: #8BBEB2;
+    color: #18314F;
+    padding: 10px;
+}
